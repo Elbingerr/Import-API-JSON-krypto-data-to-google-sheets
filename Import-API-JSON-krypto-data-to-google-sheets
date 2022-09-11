@@ -1,0 +1,5 @@
+function myFunction() {
+  var list = 'ticker';
+  var url = 'https://api.zonda.exchange/rest/trading/ticker/BTC-PLN'
+  var response = UrlFetchApp.fetch('https://api.zonda.exchange/rest/trading/ticker/BTC-PLN', {'hticker': true});
+Logger.log("response");
